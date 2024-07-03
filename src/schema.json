@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Nom"
+      },
+      "visitedCountries": {
+        "type": "array",
+        "title": "Pays visités",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Belgique",
+            "France",
+            "Allemagne",
+            "Italie",
+            "Espagne",
+            "Nigéria",
+            "Afrique du Sud",
+            "Kenya",
+            "Égypte"
+          ]
+        }
+      }
+    }
+  }
+  
